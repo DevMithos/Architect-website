@@ -1,0 +1,86 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+
+header{
+    margin: 32px;
+}
+
+h1{
+    display: inline-block;  
+    font-weight: 300;
+}
+
+.links{
+display: inline-block;
+
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links a{
+    color: black;
+    margin: 0px 8px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a.active{
+    border-bottom: 1px solid black;
+}
+
+/* Fotoğraflar  */
+
+.Gallery{
+padding: 15px;
+}
+
+.card{
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.card h2{
+    margin: 0px 8px 16px 0px;
+    font-weight: 300;
+}
+
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card img:hover{
+ opacity: 0.9;
+}
+/* Son kısım */
+ .why{
+    width: 50%;
+    margin: 100px 200px;
+ }
+
+ .banner{
+font-weight: 300;
+font-style: italic;
+font-size: 25px;
+ }
+
+ .message{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+ }
+
+ p{
+    margin: 0px;
+    font-weight: 600;
+ }
