@@ -5,27 +5,26 @@ body{
 
 header{
     margin: 32px;
+    display: flex;
+    align-items: cente  r;
+    justify-content: space-between
 }
 
 h1{
-    display: inline-block;  
     font-weight: 300;
+    font-size: 20px;
 }
 
-.links{
-display: inline-block;
-
-}
-
-.links li{
-    display: inline-block;
+.links ul{
+    display: flex; 
+    list-style: none;
 }
 
 .links a{
     color: black;
     margin: 0px 8px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 a.active{
@@ -34,12 +33,13 @@ a.active{
 
 /* Fotoğraflar  */
 
-.Gallery{
-padding: 15px;
+.gallery{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 15px;
 }
 
 .card{
-    display: inline-block;
     width: 49%;
     box-sizing: border-box;
     padding: 16px;
@@ -57,7 +57,7 @@ padding: 15px;
 }
 
 .card img:hover{
- opacity: 0.9;
+    opacity: 0.9;
 }
 /* Son kısım */
  .why{
@@ -66,9 +66,9 @@ padding: 15px;
  }
 
  .banner{
-font-weight: 300;
-font-style: italic;
-font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
  }
 
  .message{
@@ -83,4 +83,4 @@ font-size: 25px;
  p{
     margin: 0px;
     font-weight: 600;
- }
+ }t
